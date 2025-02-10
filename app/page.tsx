@@ -30,30 +30,30 @@ const floatAnimation = {
 
 export default function Page() {
     return (
-        <div className="min-h-screen bg-black" data-oid="4gic0xd">
-            <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-sm" data-oid="4n7kjsx">
+        <div className="min-h-screen bg-black" data-oid="xg5wkqu">
+            <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-sm" data-oid="7_mym56">
                 <div
                     className="max-w-7xl mx-auto flex justify-between items-center p-6"
-                    data-oid="bpvu0aj"
+                    data-oid="m5tdet:"
                 >
                     <div
                         className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-violet-400 text-transparent bg-clip-text"
-                        data-oid="lc2v_47"
+                        data-oid=":dz5rbv"
                     >
                         デベロップメント
                     </div>
-                    <div className="space-x-8" data-oid="b7m1bk_">
+                    <div className="space-x-8" data-oid="902z-:n">
                         <a
                             href="#services"
                             className="text-slate-300 hover:text-white transition-colors duration-300"
-                            data-oid="h4xmzkw"
+                            data-oid="qt0njz:"
                         >
                             サービス
                         </a>
                         <a
                             href="#contact"
                             className="text-slate-300 hover:text-white transition-colors duration-300"
-                            data-oid="h06_1j4"
+                            data-oid="avi0ys9"
                         >
                             お問い合わせ
                         </a>
@@ -61,42 +61,42 @@ export default function Page() {
                 </div>
             </nav>
 
-            <main data-oid="xgy3yln">
+            <main data-oid="w_tjlat">
                 <section
                     className="min-h-screen relative overflow-hidden flex items-center"
-                    data-oid="nza7dyz"
+                    data-oid="vb_:70k"
                 >
                     {/* Background gradient effects */}
                     <div
                         className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-to-br from-violet-500/30 via-fuchsia-500/30 to-blue-500/30 blur-3xl opacity-50 animate-pulse"
-                        data-oid="nun1b54"
+                        data-oid="ahtas9s"
                     ></div>
                     <div
                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1200px] h-[1200px] bg-gradient-to-tr from-blue-500/20 via-violet-500/20 to-fuchsia-500/20 blur-3xl opacity-30 animate-pulse delay-1000"
-                        data-oid="df5t.3p"
+                        data-oid="jax8x89"
                     ></div>
 
                     <div
                         className="max-w-7xl mx-auto px-6 relative w-full pt-20"
-                        data-oid="gwjn-yw"
+                        data-oid="u_eouea"
                     >
-                        <div className="text-center max-w-4xl mx-auto" data-oid="8ni6pv.">
+                        <div className="text-center max-w-4xl mx-auto" data-oid="l6ehto2">
                             <h1
                                 className="text-7xl font-bold mb-8 tracking-tight bg-gradient-to-br from-white via-slate-200 to-slate-300 text-transparent bg-clip-text"
-                                data-oid="g3thuvn"
+                                data-oid=":1o51al"
                             >
                                 WEB開発の
-                                <br data-oid="cuwn9rm" />
+                                <br data-oid=":2079qz" />
                                 スペシャリスト
                             </h1>
                             <p
                                 className="text-2xl text-slate-300 mb-12 leading-relaxed"
-                                data-oid="q0jyc-7"
+                                data-oid="g6lcwua"
                             >
                                 あなたのビジョンを
                                 <span
                                     className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-400"
-                                    data-oid="tto2vrg"
+                                    data-oid="bzwuzxa"
                                 >
                                     最高のウェブサイト
                                 </span>
@@ -104,16 +104,16 @@ export default function Page() {
                             </p>
                             <div
                                 className="flex items-center justify-center gap-6"
-                                data-oid="x69:323"
+                                data-oid="lponv0y"
                             >
-                                <div className="inline-block relative group" data-oid="5j3oy77">
+                                <div className="inline-block relative group" data-oid="glvd0v1">
                                     <div
                                         className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200"
-                                        data-oid="u2:qzrt"
+                                        data-oid="rt5oiio"
                                     ></div>
                                     <button
                                         className="relative px-8 py-4 bg-black text-white rounded-lg transition-all duration-200 hover:bg-slate-900"
-                                        data-oid="tludtk9"
+                                        data-oid="hz1tddw"
                                     >
                                         お問い合わせはこちら
                                     </button>
@@ -121,21 +121,21 @@ export default function Page() {
                                 <a
                                     href="#services"
                                     className="px-8 py-4 text-slate-300 hover:text-white transition-colors duration-200"
-                                    data-oid="rar:ifk"
+                                    data-oid="vn-496c"
                                 >
                                     サービスを見る →
                                 </a>
                             </div>
 
                             {/* Decorative elements */}
-                            <div className="mt-20 relative" data-oid="61er:h8">
+                            <div className="mt-20 relative" data-oid=".29_vtr">
                                 <div
                                     className="absolute top-0 left-1/2 -translate-x-1/2 w-[2px] h-[50px] bg-gradient-to-b from-slate-500/50 to-transparent"
-                                    data-oid="59oq.7z"
+                                    data-oid="09t2.0_"
                                 ></div>
                                 <div
                                     className="absolute top-[50px] left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-slate-400/50"
-                                    data-oid="osi:1wr"
+                                    data-oid="4-9lewy"
                                 ></div>
                             </div>
                         </div>
@@ -145,64 +145,64 @@ export default function Page() {
                 <section
                     id="works"
                     className="py-32 bg-black/50 backdrop-blur-sm"
-                    data-oid=".wwu.6f"
+                    data-oid="c_us0fo"
                 >
-                    <div className="max-w-7xl mx-auto px-6" data-oid="b2vr:fi">
-                        <h2 className="text-4xl font-bold text-center mb-4" data-oid="q:.2rrz">
+                    <div className="max-w-7xl mx-auto px-6" data-oid="095ahr5">
+                        <h2 className="text-4xl font-bold text-center mb-4" data-oid="9-o7-nc">
                             <span
                                 className="bg-gradient-to-r from-white via-white to-slate-200 text-transparent bg-clip-text"
-                                data-oid="pt8j5xt"
+                                data-oid="7:1hlpp"
                             >
                                 制作・開発実績
                             </span>
                         </h2>
-                        <p className="text-slate-400 text-center mb-16" data-oid="q9e6gg-">
+                        <p className="text-slate-400 text-center mb-16" data-oid="zl1f685">
                             クライアント様のビジョンを実現したプロジェクト
                         </p>
                         <div
                             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-                            data-oid="eaj80ec"
+                            data-oid="5z5t01k"
                         >
                             {/* Project Card 1 */}
                             <div
                                 className="group relative bg-slate-900 rounded-xl overflow-hidden border border-slate-800/50"
-                                data-oid="9nt9k3m"
+                                data-oid="uyn9ufl"
                             >
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="9bjdkx3"
+                                    data-oid="rvjte-6"
                                 >
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="7jw.nnx"
+                                        data-oid="zvw3oed"
                                     ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+1"
                                         alt="Project 1"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="vbsozxt"
+                                        data-oid="-rz9l80"
                                     />
                                 </div>
-                                <div className="p-6" data-oid="q:4pv1b">
+                                <div className="p-6" data-oid="jprjn._">
                                     <h3
                                         className="text-xl font-semibold text-white mb-2"
-                                        data-oid=".-07fxu"
+                                        data-oid="uzaaiw7"
                                     >
                                         コーポレートサイトリニューアル
                                     </h3>
-                                    <p className="text-slate-400 mb-4" data-oid="pltcbz7">
+                                    <p className="text-slate-400 mb-4" data-oid="ur-pi.t">
                                         最新のデザインとテクノロジーを活用し、ブランドイメージを刷新
                                     </p>
-                                    <div className="flex flex-wrap gap-2" data-oid="q:ooz37">
+                                    <div className="flex flex-wrap gap-2" data-oid="g.2gla_">
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="rddvjdv"
+                                            data-oid="esj4.eh"
                                         >
                                             Next.js
                                         </span>
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="z2dtiuc"
+                                            data-oid="t.qzf5c"
                                         >
                                             Tailwind CSS
                                         </span>
@@ -213,43 +213,43 @@ export default function Page() {
                             {/* Project Card 2 */}
                             <div
                                 className="group relative bg-slate-900 rounded-xl overflow-hidden border border-slate-800/50"
-                                data-oid="tx1e7w4"
+                                data-oid="tyvka2b"
                             >
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="udqem.j"
+                                    data-oid="f4gg:70"
                                 >
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="10sdj59"
+                                        data-oid="bbuex_m"
                                     ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+2"
                                         alt="Project 2"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="_x9xgx4"
+                                        data-oid="ho4cbtl"
                                     />
                                 </div>
-                                <div className="p-6" data-oid="::jt5pr">
+                                <div className="p-6" data-oid="spbbx5m">
                                     <h3
                                         className="text-xl font-semibold text-white mb-2"
-                                        data-oid="1ew9kh2"
+                                        data-oid=":_3f3ug"
                                     >
                                         ECサイト開発
                                     </h3>
-                                    <p className="text-slate-400 mb-4" data-oid="s6q4xv5">
+                                    <p className="text-slate-400 mb-4" data-oid="e8nlwev">
                                         高いパフォーマンスと使いやすさを両立したショッピングサイト
                                     </p>
-                                    <div className="flex flex-wrap gap-2" data-oid="dna0dbb">
+                                    <div className="flex flex-wrap gap-2" data-oid="jqzi.0_">
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="qxhpp3-"
+                                            data-oid="kxf2j.."
                                         >
                                             React
                                         </span>
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="puwnl_a"
+                                            data-oid="1-_8u22"
                                         >
                                             TypeScript
                                         </span>
@@ -260,43 +260,43 @@ export default function Page() {
                             {/* Project Card 3 */}
                             <div
                                 className="group relative bg-slate-900 rounded-xl overflow-hidden border border-slate-800/50"
-                                data-oid="dgp3ngp"
+                                data-oid="o36mpje"
                             >
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="vku4_e-"
+                                    data-oid="vt6joqp"
                                 >
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="m-uammx"
+                                        data-oid="5e0o_sa"
                                     ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+3"
                                         alt="Project 3"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="g31fn4m"
+                                        data-oid="-r3oaqr"
                                     />
                                 </div>
-                                <div className="p-6" data-oid="yb8o6x2">
+                                <div className="p-6" data-oid="yltw31s">
                                     <h3
                                         className="text-xl font-semibold text-white mb-2"
-                                        data-oid="kmae2o:"
+                                        data-oid="88hrw3d"
                                     >
                                         業務管理システム
                                     </h3>
-                                    <p className="text-slate-400 mb-4" data-oid="h:w_7s5">
+                                    <p className="text-slate-400 mb-4" data-oid="92spzps">
                                         業務効率を大幅に改善するカスタマイズ管理システム
                                     </p>
-                                    <div className="flex flex-wrap gap-2" data-oid="j3p.omq">
+                                    <div className="flex flex-wrap gap-2" data-oid="ozj0wkb">
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="av9y7de"
+                                            data-oid="0gofyze"
                                         >
                                             Next.js
                                         </span>
                                         <span
                                             className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="q2y0cbr"
+                                            data-oid="t33z.47"
                                         >
                                             Prisma
                                         </span>
@@ -307,116 +307,116 @@ export default function Page() {
                     </div>
                 </section>
 
-                <section id="services" className="py-20 bg-white" data-oid="k1sswbv">
-                    <div className="max-w-7xl mx-auto px-6" data-oid="ybe81if">
+                <section id="services" className="py-20 bg-white" data-oid="k1o4uo.">
+                    <div className="max-w-7xl mx-auto px-6" data-oid="zm5b146">
                         <h2
                             className="text-3xl font-bold text-center text-gray-800 mb-12"
-                            data-oid="be4y.ix"
+                            data-oid="4xf04ao"
                         >
                             サービス内容
                         </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="m2:2too">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="u6-50d2">
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="sdy3bpj"
+                                data-oid="t62nx73"
                             >
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="r4au6w."
+                                    data-oid="c-j95h:"
                                 >
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="uisr3f1"
+                                        data-oid=":.f8ygz"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                            data-oid="2xsof_9"
+                                            data-oid="qblo0wu"
                                         />
                                     </svg>
                                 </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="tn3af.p"
+                                    data-oid="ayy5ako"
                                 >
                                     ホームページ制作
                                 </h3>
-                                <p className="text-gray-600" data-oid="8x-b.gv">
+                                <p className="text-gray-600" data-oid="5.-p.0y">
                                     最新のデザインとテクノロジーを活用した、魅力的なウェブサイトを制作します。
                                 </p>
                             </div>
 
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="j9z5g6z"
+                                data-oid=":xk5mrs"
                             >
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="6bf-_a3"
+                                    data-oid="qy-_3_n"
                                 >
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="hz_9g9-"
+                                        data-oid="cnbvua3"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                                            data-oid="90kufd8"
+                                            data-oid="i-aajia"
                                         />
                                     </svg>
                                 </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="3wcdfje"
+                                    data-oid="94f0ngh"
                                 >
                                     WEB開発
                                 </h3>
-                                <p className="text-gray-600" data-oid="5_ya5ar">
+                                <p className="text-gray-600" data-oid="i0ufmi5">
                                     React、Next.jsなど最新のフレームワークを使用した高性能なウェブアプリケーションの開発。
                                 </p>
                             </div>
 
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="gy5_9tq"
+                                data-oid="y-m4f5r"
                             >
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="kag3ud1"
+                                    data-oid="nk-_8tv"
                                 >
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="hzuk71-"
+                                        data-oid="1o49mqz"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M13 10V3L4 14h7v7l9-11h-7z"
-                                            data-oid=":0sauua"
+                                            data-oid="fs0fj_s"
                                         />
                                     </svg>
                                 </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="ojdeyxz"
+                                    data-oid="k7490qt"
                                 >
                                     保守・運用
                                 </h3>
-                                <p className="text-gray-600" data-oid="ohc2uc3">
+                                <p className="text-gray-600" data-oid="xtut_s-">
                                     ウェブサイトの継続的な改善と安定した運用をサポートします。
                                 </p>
                             </div>
@@ -424,60 +424,77 @@ export default function Page() {
                     </div>
                 </section>
 
-                <section id="contact" className="py-20" data-oid="chj2da.">
-                    <div className="max-w-3xl mx-auto px-6" data-oid="6e0sahm">
-                        <h2
-                            className="text-3xl font-bold text-center text-gray-800 mb-12"
-                            data-oid="7cbj86u"
-                        >
-                            お問い合わせ
+                <section
+                    id="contact"
+                    className="py-32 bg-slate-900/50 backdrop-blur-sm"
+                    data-oid="u3yxkmk"
+                >
+                    <div className="max-w-3xl mx-auto px-6" data-oid="z368qa.">
+                        <h2 className="text-4xl font-bold text-center mb-4" data-oid="lz2ca:0">
+                            <span
+                                className="bg-gradient-to-r from-white via-white to-slate-200 text-transparent bg-clip-text"
+                                data-oid="_3qth5c"
+                            >
+                                お問い合わせ
+                            </span>
                         </h2>
-                        <form className="space-y-6" data-oid="xfw2tvc">
-                            <div data-oid="c9cnwuz">
-                                <label className="block text-gray-700 mb-2" data-oid="kg358wu">
-                                    お名前
-                                </label>
-                                <input
-                                    type="text"
-                                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                                    data-oid="vgtcmvr"
-                                />
-                            </div>
-                            <div data-oid="0rj9kv_">
-                                <label className="block text-gray-700 mb-2" data-oid="g565zc3">
-                                    メールアドレス
-                                </label>
-                                <input
-                                    type="email"
-                                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                                    data-oid="3be50i:"
-                                />
-                            </div>
-                            <div data-oid="0-xc9qe">
-                                <label className="block text-gray-700 mb-2" data-oid="0bzxbal">
-                                    お問い合わせ内容
-                                </label>
-                                <textarea
-                                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-transparent h-32"
-                                    data-oid="7kf0:ct"
-                                ></textarea>
-                            </div>
-                            <div className="text-center" data-oid="8fhrw1u">
-                                <button
-                                    className="px-8 py-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
-                                    data-oid="9l_kpph"
-                                >
-                                    送信する
-                                </button>
+                        <p className="text-slate-400 text-center mb-16" data-oid="bf7jjfx">
+                            お気軽にご相談ください
+                        </p>
+                        <form className="space-y-8" data-oid=":pfkr9s">
+                            <div
+                                className="bg-slate-900/50 p-8 rounded-xl border border-slate-800/50 backdrop-blur-sm space-y-6"
+                                data-oid="hfpylmz"
+                            >
+                                <div data-oid="e5j5p3.">
+                                    <label className="block text-slate-200 mb-2" data-oid="ed7scs5">
+                                        お名前
+                                    </label>
+                                    <input
+                                        type="text"
+                                        className="w-full px-4 py-3 rounded-lg bg-slate-800/50 border border-slate-700 text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        placeholder="山田 太郎"
+                                        data-oid="7_4t-ep"
+                                    />
+                                </div>
+                                <div data-oid="e4mdr5:">
+                                    <label className="block text-slate-200 mb-2" data-oid="p7hvl2t">
+                                        メールアドレス
+                                    </label>
+                                    <input
+                                        type="email"
+                                        className="w-full px-4 py-3 rounded-lg bg-slate-800/50 border border-slate-700 text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        placeholder="your@email.com"
+                                        data-oid="2tx3_u5"
+                                    />
+                                </div>
+                                <div data-oid="3evgp33">
+                                    <label className="block text-slate-200 mb-2" data-oid="xilx2qr">
+                                        お問い合わせ内容
+                                    </label>
+                                    <textarea
+                                        className="w-full px-4 py-3 rounded-lg bg-slate-800/50 border border-slate-700 text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors h-32"
+                                        placeholder="ご相談内容をご記入ください"
+                                        data-oid="i0rw219"
+                                    ></textarea>
+                                </div>
+                                <div className="text-center pt-4" data-oid="ncawzb6">
+                                    <button
+                                        className="px-8 py-4 bg-gradient-to-r from-violet-600 to-blue-600 text-white rounded-lg transition-all duration-300 hover:scale-[1.02] hover:from-violet-500 hover:to-blue-500"
+                                        data-oid="3_9mbfv"
+                                    >
+                                        送信する
+                                    </button>
+                                </div>
                             </div>
                         </form>
                     </div>
                 </section>
             </main>
 
-            <footer className="bg-gray-800 text-white py-12" data-oid="vt3v71v">
-                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="etbf70y">
-                    <p data-oid="racj3.l">© 2024 デベロップメント. All rights reserved.</p>
+            <footer className="bg-gray-800 text-white py-12" data-oid=":if3_h9">
+                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="n6_slmq">
+                    <p data-oid="b6nqd.:">© 2024 デベロップメント. All rights reserved.</p>
                 </div>
             </footer>
         </div>
