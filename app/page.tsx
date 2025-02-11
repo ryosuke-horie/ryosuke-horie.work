@@ -243,7 +243,7 @@ export default function Home() {
                         <p className="text-center text-gray-700 mb-12" data-oid="vjrcj94">
                             過去のプロジェクトを通じて、道場運営の課題を解決した事例をご紹介
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="g8o6._r">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="g8o6._r">
                             {/* 事例1 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
@@ -399,7 +399,7 @@ export default function Home() {
                         <p className="text-center text-gray-700 mb-12" data-oid="udt-l96">
                             ニーズに合わせてご相談させていただきます。以下は目安となります。
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="dp..yb3">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="dp..yb3">
                             <div className="p-6 rounded-xl bg-white shadow-md" data-oid=".pjdfd7">
                                 <h3
                                     className="text-xl font-semibold text-gray-900 mb-2"
@@ -422,10 +422,10 @@ export default function Home() {
                                     システム開発
                                 </h3>
                                 <p className="text-gray-700 mb-4" data-oid="ff67gcf">
-                                    追加料金：¥100,000～
+                                    初期費用：¥100,000～
                                 </p>
                                 <p className="text-gray-700" data-oid=".hmr5s3">
-                                    ご要望に合わせたシステムをスクラッチ開発いたします。
+                                    ご要望に合わせたシステムをスクラッチ開発いたします。プロジェクト規模に合わせて柔軟にお見積りいたします。
                                 </p>
                             </div>
                         </div>
