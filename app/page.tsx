@@ -447,83 +447,73 @@ export default function Page() {
                 <section
                     id="contact"
                     className="py-32 bg-gradient-to-b from-gray-50 to-white"
-                    data-oid="f39xz8s"
+                    data-oid="w13k4n2"
                 >
-                    {' '}
-                    <div className="max-w-3xl mx-auto px-6" data-oid="4npcv50">
-                        {' '}
+                    <div className="max-w-3xl mx-auto px-6" data-oid="tkhnxsc">
                         <h2
                             className="text-4xl font-bold text-center mb-4 text-gray-800"
-                            data-oid="ie5_a.9"
+                            data-oid="ds3t0wj"
                         >
-                            {' '}
-                            <span className="bg-gradient-to-r" data-oid="5bypygw">
-                                {' '}
-                                お問い合わせ{' '}
-                            </span>{' '}
-                        </h2>{' '}
-                        <p className="text-slate-400 text-center mb-16" data-oid="n4x:b:k">
-                            {' '}
-                            今抱えている課題を具体的にお知らせいただければ、最適な解決策をご提示します。{' '}
-                        </p>{' '}
-                        <form className="space-y-8" data-oid="pa63t1e">
-                            {' '}
+                            <span
+                                className="bg-gradient-to-r text-transparent bg-clip-text from-indigo-600 to-blue-600"
+                                data-oid="ca:u3t0"
+                            >
+                                お問い合わせ
+                            </span>
+                        </h2>
+                        <p className="text-gray-600 text-center mb-16" data-oid="_j--vtd">
+                            今抱えている課題を具体的にお知らせいただければ、最適な解決策をご提示します。
+                        </p>
+                        <form className="space-y-8" data-oid="ern4gwo">
                             <div
                                 className="bg-white p-8 rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-shadow space-y-6"
-                                data-oid="ev18g-v"
+                                data-oid="52rzbvo"
                             >
-                                {' '}
-                                <div data-oid="-9y9ibf">
-                                    {' '}
-                                    <label className="block text-gray-700 mb-2" data-oid="aj6c_hl">
+                                <div data-oid="q0kxyvz">
+                                    <label className="block text-gray-700 mb-2" data-oid="1db_zmg">
                                         お名前
-                                    </label>{' '}
+                                    </label>
                                     <input
                                         type="text"
                                         className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors"
                                         placeholder="山田 太郎"
-                                        data-oid="0wq1x06"
-                                    />{' '}
-                                </div>{' '}
-                                <div data-oid="9f:aru9">
-                                    {' '}
-                                    <label className="block text-slate-200 mb-2" data-oid="jimj8yq">
-                                        {' '}
-                                        メールアドレス{' '}
-                                    </label>{' '}
+                                        data-oid="ry1ftvs"
+                                    />
+                                </div>
+                                <div data-oid="h9ikt7q">
+                                    <label className="block text-gray-700 mb-2" data-oid="h1:ndq9">
+                                        メールアドレス
+                                    </label>
                                     <input
                                         type="email"
-                                        className="w-full px-4 py-3 rounded-lg bg-slate-800/50 border border-slate-700 text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors"
                                         placeholder="your@email.com"
-                                        data-oid="6kmx77w"
-                                    />{' '}
-                                </div>{' '}
-                                <div data-oid="hlyu2wk">
-                                    {' '}
-                                    <label className="block text-slate-200 mb-2" data-oid="r7:_.tq">
-                                        {' '}
-                                        お問い合わせ内容{' '}
-                                    </label>{' '}
+                                        data-oid="_y9cb0u"
+                                    />
+                                </div>
+                                <div data-oid="aimp0wn">
+                                    <label className="block text-gray-700 mb-2" data-oid="h258ltf">
+                                        お問い合わせ内容
+                                    </label>
                                     <textarea
-                                        className="w-full px-4 py-3 rounded-lg bg-slate-800/50 border border-slate-700 text-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors h-32"
+                                        className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors h-32"
                                         placeholder="ご相談内容をご記入ください"
-                                        data-oid="odpckp1"
-                                    ></textarea>{' '}
-                                </div>{' '}
-                                <div className="text-center pt-4" data-oid="225-.8b">
-                                    {' '}
+                                        data-oid="s0016:q"
+                                    ></textarea>
+                                </div>
+                                <div className="text-center pt-4" data-oid="108nb4s">
                                     <button
+                                        type="submit"
                                         className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg transition-all duration-300 hover:scale-[1.02] hover:from-indigo-500 hover:to-blue-500 shadow-lg hover:shadow-xl"
-                                        data-oid="n0fp2w4"
+                                        data-oid="3qrkluj"
                                     >
-                                        {' '}
-                                        無料相談を申し込む{' '}
-                                    </button>{' '}
-                                </div>{' '}
-                            </div>{' '}
-                        </form>{' '}
-                    </div>{' '}
-                </section>{' '}
+                                        無料相談を申し込む
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
             </main>{' '}
             <footer className="bg-gray-900 text-white py-12" data-oid="c7j.3uy">
                 {' '}
