@@ -317,15 +317,6 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-center mt-8" data-oid="7r5jg1d">
-                            <a
-                                href="#contact"
-                                className="inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-500 transition-colors"
-                                data-oid="5b9l1m5"
-                            >
-                                お問い合わせ
-                            </a>
-                        </div>
                     </div>
                 </section>
 
