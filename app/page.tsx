@@ -38,7 +38,7 @@ export default function Page() {
                 </div>{' '}
             </nav>{' '}
             <main data-oid="kvu4db1">
-                {' '}
+                {/* Heroセクション */}
                 <section
                     className="min-h-screen relative overflow-hidden flex items-center"
                     data-oid="qykkfte"
@@ -128,198 +128,130 @@ export default function Page() {
                         </div>{' '}
                     </div>{' '}
                 </section>{' '}
+                {/* 制作・開発実績セクション */}
                 <section
                     id="works"
                     className="py-32 bg-gradient-to-b from-gray-50 to-white"
-                    data-oid="c6o.2hf"
+                    data-oid="on_3t87"
                 >
-                    {' '}
-                    <div className="max-w-7xl mx-auto px-6" data-oid="0qhrfuv">
-                        {' '}
+                    <div className="max-w-7xl mx-auto px-6" data-oid="3nl:kul">
                         <h2
                             className="text-4xl font-bold text-center mb-4 text-gray-800"
-                            data-oid="8e021s:"
+                            data-oid="v.abh4:"
                         >
-                            {' '}
-                            <span className="to-slate-200 bg-clip-text" data-oid="ez78wov">
-                                {' '}
-                                制作・開発実績{' '}
-                            </span>{' '}
-                        </h2>{' '}
-                        <p className="text-slate-400 text-center mb-16" data-oid="5:yne-0">
-                            {' '}
-                            クライアント様のビジョンを実現したプロジェクト{' '}
-                        </p>{' '}
+                            <span
+                                className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600"
+                                data-oid="7oc.4hi"
+                            >
+                                制作・開発実績
+                            </span>
+                        </h2>
+                        <p className="text-gray-600 text-center mb-16" data-oid="p:ar12:">
+                            クライアント様のビジョンを実現したプロジェクト
+                        </p>
                         <div
                             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-                            data-oid="7o6necf"
+                            data-oid="s0e5egl"
                         >
-                            {' '}
-                            {/* Project Card 1 */}{' '}
+                            {/* Project Card 1 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="od0w2-g"
+                                data-oid="v8leq0h"
                             >
-                                {' '}
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="ob33_py"
+                                    data-oid="mtf3mz6"
                                 >
-                                    {' '}
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="khzdu7e"
-                                    ></div>{' '}
+                                        data-oid="fo6me.d"
+                                    ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+1"
                                         alt="Project 1"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="jhj1qlc"
-                                    />{' '}
-                                </div>{' '}
-                                <div className="p-6" data-oid="c4ie_ml">
-                                    {' '}
+                                        data-oid="h_dcrtn"
+                                    />
+                                </div>
+                                <div className="p-6" data-oid="w4n1:cq">
                                     <h3
                                         className="text-xl font-semibold text-gray-800 mb-2"
-                                        data-oid="2tgpe3q"
+                                        data-oid="spnlcmh"
                                     >
-                                        {' '}
-                                        コーポレートサイトリニューアル{' '}
-                                    </h3>{' '}
-                                    <p className="text-gray-600 mb-4" data-oid="7yq-eom">
-                                        {' '}
-                                        最新のデザインとテクノロジーを活用し、ブランドイメージを刷新{' '}
-                                    </p>{' '}
-                                    <div className="flex flex-wrap gap-2" data-oid="leojt6x">
-                                        {' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full"
-                                            data-oid="o5pldyu"
-                                        >
-                                            {' '}
-                                            Next.js{' '}
-                                        </span>{' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full"
-                                            data-oid="_ox.p88"
-                                        >
-                                            {' '}
-                                            Tailwind CSS{' '}
-                                        </span>{' '}
-                                    </div>{' '}
-                                </div>{' '}
-                            </div>{' '}
-                            {/* Project Card 2 */}{' '}
+                                        コーポレートサイトリニューアル
+                                    </h3>
+                                    <p className="text-gray-600" data-oid="7i1x1os">
+                                        最新のデザインとテクノロジーを活用し、ブランドイメージを刷新
+                                    </p>
+                                </div>
+                            </div>
+                            {/* Project Card 2 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="51whqyo"
+                                data-oid="1cd8kxi"
                             >
-                                {' '}
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="qfaf5pu"
+                                    data-oid="wqihq19"
                                 >
-                                    {' '}
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="zumbp.v"
-                                    ></div>{' '}
+                                        data-oid="zyzgaqw"
+                                    ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+2"
                                         alt="Project 2"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="nitkohh"
-                                    />{' '}
-                                </div>{' '}
-                                <div className="p-6" data-oid="vsyl2p4">
-                                    {' '}
+                                        data-oid="aenl:1w"
+                                    />
+                                </div>
+                                <div className="p-6" data-oid="uncbjz8">
                                     <h3
-                                        className="text-xl font-semibold text-white mb-2"
-                                        data-oid="25_qeu8"
+                                        className="text-xl font-semibold text-gray-800 mb-2"
+                                        data-oid="jv1z7ed"
                                     >
-                                        {' '}
-                                        ECサイト開発{' '}
-                                    </h3>{' '}
-                                    <p className="text-slate-400 mb-4" data-oid="f8xiepp">
-                                        {' '}
-                                        高いパフォーマンスと使いやすさを両立したショッピングサイト{' '}
-                                    </p>{' '}
-                                    <div className="flex flex-wrap gap-2" data-oid="kwxyq9q">
-                                        {' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="wmt2.x0"
-                                        >
-                                            {' '}
-                                            React{' '}
-                                        </span>{' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="v8uiwn3"
-                                        >
-                                            {' '}
-                                            TypeScript{' '}
-                                        </span>{' '}
-                                    </div>{' '}
-                                </div>{' '}
-                            </div>{' '}
-                            {/* Project Card 3 */}{' '}
+                                        ECサイト開発
+                                    </h3>
+                                    <p className="text-gray-600" data-oid="k3:3ev7">
+                                        高いパフォーマンスと使いやすさを両立したショッピングサイト
+                                    </p>
+                                </div>
+                            </div>
+                            {/* Project Card 3 */}
                             <div
-                                className="group relative bg-slate-900 rounded-xl overflow-hidden border border-slate-800/50"
-                                data-oid="r3lxg5_"
+                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
+                                data-oid="_vm5kn4"
                             >
-                                {' '}
                                 <div
                                     className="aspect-video relative overflow-hidden"
-                                    data-oid="hj76bb7"
+                                    data-oid="7wtidaw"
                                 >
-                                    {' '}
                                     <div
                                         className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="m04qjlp"
-                                    ></div>{' '}
+                                        data-oid="x44mu_n"
+                                    ></div>
                                     <img
                                         src="https://placehold.co/600x400/black/white?text=Project+3"
                                         alt="Project 3"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="koqs4.6"
-                                    />{' '}
-                                </div>{' '}
-                                <div className="p-6" data-oid="y:4gvjq">
-                                    {' '}
+                                        data-oid="t.c.yy2"
+                                    />
+                                </div>
+                                <div className="p-6" data-oid="09yd9oj">
                                     <h3
-                                        className="text-xl font-semibold text-white mb-2"
-                                        data-oid="jvl8rev"
+                                        className="text-xl font-semibold text-gray-800 mb-2"
+                                        data-oid="j28-fb3"
                                     >
-                                        {' '}
-                                        業務管理システム{' '}
-                                    </h3>{' '}
-                                    <p className="text-slate-400 mb-4" data-oid="qdnlc43">
-                                        {' '}
-                                        業務効率を大幅に改善するカスタマイズ管理システム{' '}
-                                    </p>{' '}
-                                    <div className="flex flex-wrap gap-2" data-oid="ebmlx3y">
-                                        {' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid="6y4jxyu"
-                                        >
-                                            {' '}
-                                            Next.js{' '}
-                                        </span>{' '}
-                                        <span
-                                            className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full"
-                                            data-oid=":c7b-n:"
-                                        >
-                                            {' '}
-                                            Prisma{' '}
-                                        </span>{' '}
-                                    </div>{' '}
-                                </div>{' '}
-                            </div>{' '}
-                        </div>{' '}
-                    </div>{' '}
-                </section>{' '}
+                                        業務管理システム
+                                    </h3>
+                                    <p className="text-gray-600" data-oid="y0q.q.-">
+                                        業務効率を大幅に改善するカスタマイズ管理システム
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 {/* サービス内容セクション */}
                 <section id="services" className="py-20 bg-white" data-oid="g:yei::">
                     <div className="max-w-7xl mx-auto px-6" data-oid="5b9pkxx">
