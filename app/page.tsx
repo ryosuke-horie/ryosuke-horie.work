@@ -247,27 +247,46 @@ export default function Home() {
                             {/* プロジェクトカード例 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
-                                data-oid="ffw3lg:"
+                                data-oid="new-card"
                             >
-                                <div className="aspect-video overflow-hidden" data-oid="559ns2p">
-                                    <img
-                                        src="https://placehold.co/600x400?text=プロジェクト1"
-                                        alt="プロジェクト1"
-                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="pqoj5u3"
-                                    />
-                                </div>
-                                <div className="p-6" data-oid="k4pnala">
-                                    <h3
-                                        className="text-xl font-semibold text-gray-900 mb-2"
-                                        data-oid="e80dpyn"
+                                <a
+                                    href="https://timetable-hideskick.net/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block"
+                                    data-oid="ome.9a4"
+                                >
+                                    <div
+                                        className="aspect-video overflow-hidden"
+                                        data-oid="new-image"
                                     >
-                                        道場HPリニューアル
-                                    </h3>
-                                    <p className="text-gray-700" data-oid="fp6lusv">
-                                        既存サイトの刷新により、予約数が向上した事例。
-                                    </p>
-                                </div>
+                                        <Image
+                                            src="/images/hides-timetable.webp"
+                                            alt="体験予約受付システム hides timetable"
+                                            width={600}
+                                            height={400}
+                                            className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
+                                            data-oid="ghq_7ts"
+                                        />
+                                    </div>
+                                    <div className="p-6" data-oid="new-info">
+                                        <h3
+                                            className="text-xl font-semibold text-gray-900 mb-2"
+                                            data-oid="new-title"
+                                        >
+                                            体験予約受付システム
+                                            <span
+                                                className="text-sm text-gray-500"
+                                                data-oid="new-client"
+                                            >
+                                                Hide's Kick様
+                                            </span>
+                                        </h3>
+                                        <p className="text-gray-700" data-oid="new-desc">
+                                            オンラインでの体験予約受付システムを開発。タイムテーブルに模した予約フォームを実現。
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
@@ -290,30 +309,6 @@ export default function Home() {
                                     </h3>
                                     <p className="text-gray-700" data-oid="g9t-yp8">
                                         会員管理と出欠確認を一元管理できるシステムを開発。
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
-                                data-oid="h::zip1"
-                            >
-                                <div className="aspect-video overflow-hidden" data-oid="bmeaf9_">
-                                    <img
-                                        src="https://placehold.co/600x400?text=プロジェクト3"
-                                        alt="プロジェクト3"
-                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="z.r6ecy"
-                                    />
-                                </div>
-                                <div className="p-6" data-oid="huighww">
-                                    <h3
-                                        className="text-xl font-semibold text-gray-900 mb-2"
-                                        data-oid="bmkuoim"
-                                    >
-                                        保守・運用サポート
-                                    </h3>
-                                    <p className="text-gray-700" data-oid="_ljdr9s">
-                                        継続的なサポートで、常に最適な状態を維持。
                                     </p>
                                 </div>
                             </div>
