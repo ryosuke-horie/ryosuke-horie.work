@@ -320,139 +320,130 @@ export default function Page() {
                         </div>{' '}
                     </div>{' '}
                 </section>{' '}
-                <section id="services" className="py-20 bg-white" data-oid="y2lu81l">
-                    {' '}
-                    <div className="max-w-7xl mx-auto px-6" data-oid="xw3ec15">
-                        {' '}
+                {/* サービス内容セクション */}
+                <section id="services" className="py-20 bg-white" data-oid="g:yei::">
+                    <div className="max-w-7xl mx-auto px-6" data-oid="5b9pkxx">
                         <h2
                             className="text-3xl font-bold text-center text-gray-800 mb-12"
-                            data-oid="uo3.zps"
+                            data-oid="acxekt4"
                         >
-                            {' '}
-                            サービス内容{' '}
-                        </h2>{' '}
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="fxnrfb4">
-                            {' '}
+                            サービス内容
+                        </h2>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="-ahlr2v">
+                            {/* ホームページ制作 */}
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="xuo-fb0"
+                                data-oid=".e22ehr"
                             >
-                                {' '}
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="5_73:pu"
+                                    data-oid="b1grfwk"
                                 >
-                                    {' '}
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="5u4wfr4"
+                                        data-oid="x9l0u9u"
                                     >
-                                        {' '}
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                            data-oid="rrwqwcv"
-                                        />{' '}
-                                    </svg>{' '}
-                                </div>{' '}
+                                            data-oid="nobb2lm"
+                                        />
+                                    </svg>
+                                </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="exh:cgj"
+                                    data-oid="cdu0.sh"
                                 >
-                                    {' '}
-                                    ホームページ制作{' '}
-                                </h3>{' '}
-                                <p className="text-gray-600" data-oid="rbwtc7u">
-                                    {' '}
-                                    売上・集客を最大化するホームページ制作{' '}
-                                </p>{' '}
-                            </div>{' '}
+                                    ホームページ制作
+                                </h3>
+                                <p className="text-gray-600" data-oid="33y6lh_">
+                                    貴社のブランドと戦略をホームページに的確に反映。
+                                    <br data-oid="8kxfzt4" />
+                                    顧客獲得と売上拡大に向けて伴走いたします。
+                                </p>
+                            </div>
+
+                            {/* WEB開発 */}
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="gdt02e9"
+                                data-oid="4tr-3j1"
                             >
-                                {' '}
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="kv_qsm_"
+                                    data-oid="s38t62j"
                                 >
-                                    {' '}
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="0i.k:ut"
+                                        data-oid="tdhmngc"
                                     >
-                                        {' '}
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                                            data-oid="axzz1sd"
-                                        />{' '}
-                                    </svg>{' '}
-                                </div>{' '}
+                                            data-oid="doao213"
+                                        />
+                                    </svg>
+                                </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="2hpagz2"
+                                    data-oid=":ov0tt9"
                                 >
-                                    {' '}
-                                    WEB開発{' '}
-                                </h3>{' '}
-                                <p className="text-gray-600" data-oid="nmq9zs.">
-                                    {' '}
-                                    React、Next.jsなど最新のフレームワークを使用した高性能なウェブアプリケーションの開発。{' '}
-                                </p>{' '}
-                            </div>{' '}
+                                    WEB開発
+                                </h3>
+                                <p className="text-gray-600" data-oid="sh2hvba">
+                                    ユーザー体験と業務効率を両立するアプリケーションを構築。
+                                </p>
+                            </div>
+
+                            {/* 保守・運用 */}
                             <div
                                 className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="bmdxltp"
+                                data-oid="im9k2x_"
                             >
-                                {' '}
                                 <div
                                     className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="nat.nvd"
+                                    data-oid="10sz944"
                                 >
-                                    {' '}
                                     <svg
                                         className="w-6 h-6 text-indigo-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="vb9-1tc"
+                                        data-oid="5foo8ak"
                                     >
-                                        {' '}
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M13 10V3L4 14h7v7l9-11h-7z"
-                                            data-oid="-_:0pfa"
-                                        />{' '}
-                                    </svg>{' '}
-                                </div>{' '}
+                                            data-oid="bflzpyl"
+                                        />
+                                    </svg>
+                                </div>
                                 <h3
                                     className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="skpb4mb"
+                                    data-oid="72mfwgz"
                                 >
-                                    {' '}
-                                    保守・運用{' '}
-                                </h3>{' '}
-                                <p className="text-gray-600" data-oid="ghh5w2f">
-                                    {' '}
-                                    ウェブサイトの継続的な改善と安定した運用をサポートします。{' '}
-                                </p>{' '}
-                            </div>{' '}
-                        </div>{' '}
-                    </div>{' '}
-                </section>{' '}
+                                    保守・運用
+                                </h3>
+                                <p className="text-gray-600" data-oid="u1j1-71">
+                                    安心してご利用いただけるサポート体制。
+                                    <br data-oid="8ue5x9i" />
+                                    定期的なメンテナンスと迅速な改善対応により、常に最適な状態を維持します。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section
                     id="contact"
                     className="py-32 bg-gradient-to-b from-gray-50 to-white"
