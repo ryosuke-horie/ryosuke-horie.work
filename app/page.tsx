@@ -55,22 +55,22 @@ export default function Page() {
                                 className="text-7xl font-bold mb-8 tracking-tight bg-gradient-to-br from-white via-slate-200 to-slate-300 text-transparent bg-clip-text"
                                 data-oid="utjafdk"
                             >
-                                WEB開発の
+                                集客力アップ・売上拡大を実現する
                                 <br data-oid="viv4p4e" />
-                                スペシャリスト
+                                あなた専属のWEBパートナー
                             </h1>
                             <p
                                 className="text-2xl text-slate-300 mb-12 leading-relaxed"
                                 data-oid="dxb-l1q"
                             >
-                                あなたのビジョンを
+                                最新技術を駆使しつつ、ユーザー目線のデザインで
                                 <span
                                     className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-400"
                                     data-oid="h:3mygh"
                                 >
-                                    最高のウェブサイト
+                                    お客様のビジネス目標を最短距離で達成
                                 </span>
-                                に
+                                します
                             </p>
                             <div
                                 className="flex items-center justify-center gap-6"
@@ -85,7 +85,7 @@ export default function Page() {
                                         className="relative px-8 py-4 bg-black text-white rounded-lg transition-all duration-200 hover:bg-slate-900"
                                         data-oid="67bai_u"
                                     >
-                                        お問い合わせはこちら
+                                        無料でお見積りを依頼する
                                     </button>
                                 </div>
                                 <a
@@ -317,7 +317,7 @@ export default function Page() {
                                     ホームページ制作
                                 </h3>
                                 <p className="text-gray-600" data-oid="9_j4aw.">
-                                    最新のデザインとテクノロジーを活用した、魅力的なウェブサイトを制作します。
+                                    売上・集客を最大化するホームページ制作
                                 </p>
                             </div>
 
@@ -409,7 +409,7 @@ export default function Page() {
                             </span>
                         </h2>
                         <p className="text-slate-400 text-center mb-16" data-oid="m-9imx4">
-                            お気軽にご相談ください
+                            今抱えている課題を具体的にお知らせいただければ、最適な解決策をご提示します。
                         </p>
                         <form className="space-y-8" data-oid="a_njk3:">
                             <div
@@ -453,7 +453,7 @@ export default function Page() {
                                         className="px-8 py-4 bg-gradient-to-r from-violet-600 to-blue-600 text-white rounded-lg transition-all duration-300 hover:scale-[1.02] hover:from-violet-500 hover:to-blue-500"
                                         data-oid="grslf.z"
                                     >
-                                        送信する
+                                        無料相談を申し込む
                                     </button>
                                 </div>
                             </div>
