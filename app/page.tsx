@@ -342,7 +342,7 @@ export default function Home() {
                                     className="text-xl text-gray-900 font-semibold"
                                     data-oid="7mr.wyo"
                                 >
-                                    フルスタックエンジニア × 格闘技ジムスタッフ
+                                    WEBエンジニア × 格闘技ジムスタッフ
                                 </p>
                                 <p className="text-gray-700 mt-4" data-oid="._7hm58">
                                     長年のWEB制作とフロントエンドエンジニアとしての経験、さらに格闘技ジムでの現場経験を活かし、ITが苦手な小規模ジムや個人事業オーナーに寄り添ったサポートを提供しています。
