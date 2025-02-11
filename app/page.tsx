@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Home() {
     return (
         <div className="min-h-screen bg-white" data-oid="zfvm6p5">
@@ -330,11 +331,13 @@ export default function Home() {
                             className="flex flex-col md:flex-row items-center justify-center"
                             data-oid="v4hgoug"
                         >
-                            <img
-                                src="https://placehold.co/200x200?text=Photo"
-                                alt="プロフィール"
-                                className="w-40 h-40 rounded-full mb-6 md:mb-0 md:mr-8"
-                                data-oid="lsbci:w"
+                            <Image
+                                src="/images/my_image.webp"
+                                alt="WEBエンジニア 堀江 遼佑のプロフィール画像"
+                                width={200}
+                                height={200}
+                                className="rounded-full mb-6 md:mb-0 md:mr-8"
+                                data-oid=":o9o8e-"
                             />
 
                             <div className="text-left" data-oid="-sp7wae">
