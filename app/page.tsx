@@ -244,7 +244,7 @@ export default function Home() {
                             過去のプロジェクトを通じて、道場運営の課題を解決した事例をご紹介
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="g8o6._r">
-                            {/* プロジェクトカード例 */}
+                            {/* 事例1 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                                 data-oid="new-card"
@@ -288,14 +288,15 @@ export default function Home() {
                                     </div>
                                 </a>
                             </div>
+                            {/* 事例2 */}
                             <div
                                 className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                                 data-oid="5h1_cq."
                             >
                                 <div className="aspect-video overflow-hidden" data-oid="ypppr6h">
                                     <img
-                                        src="https://placehold.co/600x400?text=プロジェクト2"
-                                        alt="プロジェクト2"
+                                        src="https://placehold.co/600x400?text=sample2"
+                                        alt="事例2"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
                                         data-oid="u3gfkoi"
                                     />
@@ -305,13 +306,25 @@ export default function Home() {
                                         className="text-xl font-semibold text-gray-900 mb-2"
                                         data-oid="gmit9md"
                                     >
-                                        予約管理システム構築
+                                        ホームページ制作
+                                        <span className="text-sm text-gray-500" data-oid="z9z7z7_">
+                                            HK Studio様
+                                        </span>
                                     </h3>
                                     <p className="text-gray-700" data-oid="g9t-yp8">
-                                        会員管理と出欠確認を一元管理できるシステムを開発。
+                                        オリジナルデザインのホームページ制作。パーソナルジムの雰囲気を活かしたデザインを実現。
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="text-center mt-8" data-oid="7r5jg1d">
+                            <a
+                                href="#contact"
+                                className="inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-500 transition-colors"
+                                data-oid="5b9l1m5"
+                            >
+                                お問い合わせ
+                            </a>
                         </div>
                     </div>
                 </section>
