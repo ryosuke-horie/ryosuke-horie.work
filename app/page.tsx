@@ -1,459 +1,520 @@
-export default function Page() {
+export default function Home() {
     return (
-        <div className="min-h-screen bg-black" data-oid="qa:wxxu">
-            {' '}
-            <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-sm" data-oid="xzyvve5">
-                {' '}
+        <div className="min-h-screen bg-white" data-oid="zfvm6p5">
+            {/* ナビゲーション */}
+            <nav className="fixed w-full z-50 bg-white shadow-md" data-oid="4ttnykc">
                 <div
                     className="max-w-7xl mx-auto flex justify-between items-center p-6"
-                    data-oid="v8.xxhf"
+                    data-oid="yz6y903"
                 >
-                    {' '}
-                    <div
-                        className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-violet-400 text-transparent bg-clip-text"
-                        data-oid="lesg867"
-                    >
-                        {' '}
-                        デベロップメント{' '}
-                    </div>{' '}
-                    <div className="space-x-8" data-oid="it98ddz">
-                        {' '}
+                    <div className="text-xl font-bold text-gray-800" data-oid="j4ne60o">
+                        WEBエンジニア | 堀江 遼佑
+                    </div>
+                    <div className="space-x-4" data-oid="4ge:q5l">
+                        <a
+                            href="#hero"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="b92.53o"
+                        >
+                            ホーム
+                        </a>
                         <a
                             href="#services"
-                            className="text-slate-300 hover:text-white transition-colors duration-300"
-                            data-oid="6139y2a"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="wf0c.lm"
                         >
-                            {' '}
-                            サービス{' '}
-                        </a>{' '}
+                            サービス
+                        </a>
+                        <a
+                            href="#portfolio"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="dol8hch"
+                        >
+                            実績
+                        </a>
+                        <a
+                            href="#profile"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="48wurwb"
+                        >
+                            プロフィール
+                        </a>
+                        <a
+                            href="#testimonials"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="2j3strf"
+                        >
+                            お客様の声
+                        </a>
+                        <a
+                            href="#pricing"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="95y33a0"
+                        >
+                            料金
+                        </a>
                         <a
                             href="#contact"
-                            className="text-slate-300 hover:text-white transition-colors duration-300"
-                            data-oid="n5y0z2y"
+                            className="text-gray-800 hover:text-blue-600"
+                            data-oid="dxwzeav"
                         >
-                            {' '}
-                            お問い合わせ{' '}
-                        </a>{' '}
-                    </div>{' '}
-                </div>{' '}
-            </nav>{' '}
-            <main data-oid="kvu4db1">
+                            お問い合わせ
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <main className="pt-20" data-oid="exveen8">
                 {/* Heroセクション */}
                 <section
-                    className="min-h-screen relative overflow-hidden flex items-center"
-                    data-oid="qykkfte"
+                    id="hero"
+                    className="min-h-screen flex items-center justify-center relative bg-white overflow-hidden"
+                    data-oid="i0o51xu"
                 >
-                    {' '}
-                    {/* Background gradient effects */}{' '}
-                    <div
-                        className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-to-br from-violet-500/30 via-fuchsia-500/30 to-blue-500/30 blur-3xl opacity-50 animate-pulse"
-                        data-oid="aw9e1h6"
-                    ></div>{' '}
-                    <div
-                        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1200px] h-[1200px] bg-gradient-to-tr from-blue-500/20 via-violet-500/20 to-fuchsia-500/20 blur-3xl opacity-30 animate-pulse delay-1000"
-                        data-oid="15:9ibj"
-                    ></div>{' '}
-                    <div
-                        className="max-w-7xl mx-auto px-6 relative w-full pt-20"
-                        data-oid="6-h0zax"
-                    >
-                        {' '}
-                        <div className="text-center max-w-4xl mx-auto" data-oid="3uarvpr">
-                            {' '}
-                            <h1
-                                className="text-5xl font-bold mb-8 tracking-tight bg-gradient-to-br from-white via-slate-200 to-slate-300 text-transparent bg-clip-text leading-tight"
-                                data-oid="69g64zk"
-                            >
-                                {' '}
-                                集客力アップ <br data-oid="ghsp62_" /> 売上拡大を実現する{' '}
-                                <br data-oid="opx:nf3" /> あなた専属の <br data-oid="z2nga8p" />{' '}
-                                WEBパートナー{' '}
-                            </h1>{' '}
-                            <p
-                                className="text-xl text-slate-300 mb-12 leading-relaxed max-w-2xl mx-auto"
-                                data-oid="5wuni_w"
-                            >
-                                {' '}
-                                最新技術を駆使しつつ、ユーザー目線のデザインで{' '}
-                                <br data-oid="0fcg76g" />{' '}
-                                <span
-                                    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-400"
-                                    data-oid="k4domvd"
-                                >
-                                    {' '}
-                                    お客様のビジネス目標を最短距離で達成{' '}
-                                </span>{' '}
-                                します{' '}
-                            </p>{' '}
-                            <div
-                                className="flex items-center justify-center gap-6"
-                                data-oid="p8o4jc1"
-                            >
-                                {' '}
-                                <div className="inline-block relative group" data-oid="vovka1m">
-                                    {' '}
-                                    <div
-                                        className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200"
-                                        data-oid="ws7_g.r"
-                                    ></div>{' '}
-                                    <button
-                                        className="relative px-8 py-4 bg-black text-white rounded-lg transition-all duration-200 hover:bg-slate-900"
-                                        data-oid="2gk2sa9"
-                                    >
-                                        {' '}
-                                        無料でお見積りを依頼する{' '}
-                                    </button>{' '}
-                                </div>{' '}
-                                <a
-                                    href="#services"
-                                    className="px-8 py-4 text-slate-300 hover:text-white transition-colors duration-200"
-                                    data-oid=":uv8xb:"
-                                >
-                                    {' '}
-                                    サービスを見る →{' '}
-                                </a>{' '}
-                            </div>{' '}
-                            {/* Decorative elements */}{' '}
-                            <div className="mt-20 relative" data-oid="88.xfqy">
-                                {' '}
-                                <div
-                                    className="absolute top-0 left-1/2 -translate-x-1/2 w-[2px] h-[50px] bg-gradient-to-b from-slate-500/50 to-transparent"
-                                    data-oid="u141:jb"
-                                ></div>{' '}
-                                <div
-                                    className="absolute top-[50px] left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-slate-400/50"
-                                    data-oid="uv92j9k"
-                                ></div>{' '}
-                            </div>{' '}
-                        </div>{' '}
-                    </div>{' '}
-                </section>{' '}
-                {/* 制作・開発実績セクション */}
-                <section
-                    id="works"
-                    className="py-32 bg-gradient-to-b from-gray-50 to-white"
-                    data-oid="on_3t87"
-                >
-                    <div className="max-w-7xl mx-auto px-6" data-oid="3nl:kul">
-                        <h2
-                            className="text-4xl font-bold text-center mb-4 text-gray-800"
-                            data-oid="v.abh4:"
-                        >
-                            <span
-                                className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600"
-                                data-oid="7oc.4hi"
-                            >
-                                制作・開発実績
-                            </span>
-                        </h2>
-                        <p className="text-gray-600 text-center mb-16" data-oid="p:ar12:">
-                            クライアント様のビジョンを実現したプロジェクト
-                        </p>
+                    {/* グラデーション背景（ヒーロー内に収める） */}
+                    <div className="absolute inset-0" data-oid="fizl5w3">
                         <div
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-                            data-oid="s0e5egl"
+                            className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-to-br from-blue-500 via-purple-500 to-orange-400 blur-3xl opacity-40 animate-pulse"
+                            data-oid="bnky11_"
+                        ></div>
+                    </div>
+                    <div className="relative z-10 text-center px-4" data-oid="8ssuxla">
+                        <h1
+                            className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
+                            data-oid="uvdokte"
                         >
-                            {/* Project Card 1 */}
-                            <div
-                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="v8leq0h"
-                            >
-                                <div
-                                    className="aspect-video relative overflow-hidden"
-                                    data-oid="mtf3mz6"
-                                >
-                                    <div
-                                        className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="fo6me.d"
-                                    ></div>
-                                    <img
-                                        src="https://placehold.co/600x400/black/white?text=Project+1"
-                                        alt="Project 1"
-                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="h_dcrtn"
-                                    />
-                                </div>
-                                <div className="p-6" data-oid="w4n1:cq">
-                                    <h3
-                                        className="text-xl font-semibold text-gray-800 mb-2"
-                                        data-oid="spnlcmh"
-                                    >
-                                        コーポレートサイトリニューアル
-                                    </h3>
-                                    <p className="text-gray-600" data-oid="7i1x1os">
-                                        最新のデザインとテクノロジーを活用し、ブランドイメージを刷新
-                                    </p>
-                                </div>
-                            </div>
-                            {/* Project Card 2 */}
-                            <div
-                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="1cd8kxi"
-                            >
-                                <div
-                                    className="aspect-video relative overflow-hidden"
-                                    data-oid="wqihq19"
-                                >
-                                    <div
-                                        className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="zyzgaqw"
-                                    ></div>
-                                    <img
-                                        src="https://placehold.co/600x400/black/white?text=Project+2"
-                                        alt="Project 2"
-                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="aenl:1w"
-                                    />
-                                </div>
-                                <div className="p-6" data-oid="uncbjz8">
-                                    <h3
-                                        className="text-xl font-semibold text-gray-800 mb-2"
-                                        data-oid="jv1z7ed"
-                                    >
-                                        ECサイト開発
-                                    </h3>
-                                    <p className="text-gray-600" data-oid="k3:3ev7">
-                                        高いパフォーマンスと使いやすさを両立したショッピングサイト
-                                    </p>
-                                </div>
-                            </div>
-                            {/* Project Card 3 */}
-                            <div
-                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-100 shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="_vm5kn4"
-                            >
-                                <div
-                                    className="aspect-video relative overflow-hidden"
-                                    data-oid="7wtidaw"
-                                >
-                                    <div
-                                        className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 via-fuchsia-500/10 to-blue-500/10 group-hover:opacity-75 transition-opacity duration-300"
-                                        data-oid="x44mu_n"
-                                    ></div>
-                                    <img
-                                        src="https://placehold.co/600x400/black/white?text=Project+3"
-                                        alt="Project 3"
-                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
-                                        data-oid="t.c.yy2"
-                                    />
-                                </div>
-                                <div className="p-6" data-oid="09yd9oj">
-                                    <h3
-                                        className="text-xl font-semibold text-gray-800 mb-2"
-                                        data-oid="j28-fb3"
-                                    >
-                                        業務管理システム
-                                    </h3>
-                                    <p className="text-gray-600" data-oid="y0q.q.-">
-                                        業務効率を大幅に改善するカスタマイズ管理システム
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                            格闘技ジムの現場を知る
+                            <br data-oid="xgj2_vx" />
+                            WEBエンジニアが、
+                            <br data-oid="zqzcjz_" />
+                            伴走型の制作・開発で
+                            <br data-oid="1s6sjft" />
+                            あなたの道場運営を支えます
+                        </h1>
+                        <p className="text-lg md:text-xl text-gray-700 mb-8" data-oid="qq2m87m">
+                            ITが苦手なオーナーにも安心していただける、寄り添い型のサポート体制を実現。
+                        </p>
+                        <a
+                            href="#contact"
+                            className="inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-500 transition-colors"
+                            data-oid="y2purga"
+                        >
+                            まずはご相談ください
+                        </a>
                     </div>
                 </section>
-                {/* サービス内容セクション */}
-                <section id="services" className="py-20 bg-white" data-oid="g:yei::">
-                    <div className="max-w-7xl mx-auto px-6" data-oid="5b9pkxx">
+
+                {/* サービスセクション */}
+                <section id="services" className="py-20 bg-gray-50" data-oid=".w-43qw">
+                    <div className="max-w-7xl mx-auto px-6" data-oid="l74umu:">
                         <h2
-                            className="text-3xl font-bold text-center text-gray-800 mb-12"
-                            data-oid="acxekt4"
+                            className="text-3xl font-bold text-center text-gray-900 mb-4"
+                            data-oid="8x_jol_"
                         >
                             サービス内容
                         </h2>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="-ahlr2v">
-                            {/* ホームページ制作 */}
+                        <p className="text-center text-gray-700 mb-12" data-oid="42nrs:2">
+                            伴走型の開発体制で、ジム運営を全面サポート。
+                            <br data-oid="n9rmo-x" />
+                            ホームページ制作・リプレイス、予約管理システム、継続的な保守・運用支援を提供します。
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="_:bhhw9">
+                            {/* ホームページ制作・リプレイス */}
                             <div
-                                className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid=".e22ehr"
+                                className="p-6 rounded-xl bg-white shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="gaxvsx8"
                             >
                                 <div
-                                    className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="b1grfwk"
+                                    className="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+                                    data-oid="qbj39rz"
                                 >
                                     <svg
-                                        className="w-6 h-6 text-indigo-600"
+                                        className="w-6 h-6 text-blue-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="x9l0u9u"
+                                        data-oid="cw6w.x:"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
-                                            d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                            data-oid="nobb2lm"
+                                            d="M3 7h18M3 12h18M3 17h18"
+                                            data-oid="kbpkbmi"
                                         />
                                     </svg>
                                 </div>
                                 <h3
-                                    className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="cdu0.sh"
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="u:p509k"
                                 >
                                     ホームページ制作
                                 </h3>
-                                <p className="text-gray-600" data-oid="33y6lh_">
-                                    貴社のブランドと戦略をホームページに的確に反映。
-                                    <br data-oid="8kxfzt4" />
-                                    顧客獲得と売上拡大に向けて伴走いたします。
+                                <p className="text-gray-700" data-oid="wx5r9qt">
+                                    オリジナルデザインのホームページ制作や既存ホームページのリプレイスを行います。
+                                    <br data-oid=":su6maz" />
+                                    集客力の向上のため、内部SEO対策、MEO対策も実施いたします。
                                 </p>
                             </div>
-
-                            {/* WEB開発 */}
+                            {/* 予約・会員管理システム */}
                             <div
-                                className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="4tr-3j1"
+                                className="p-6 rounded-xl bg-white shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="cpkv5se"
                             >
                                 <div
-                                    className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="s38t62j"
+                                    className="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+                                    data-oid="aiobeco"
                                 >
                                     <svg
-                                        className="w-6 h-6 text-indigo-600"
+                                        className="w-6 h-6 text-blue-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="tdhmngc"
+                                        data-oid="-xe9-qr"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
-                                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                                            data-oid="doao213"
+                                            d="M8 7V3M16 7V3M4 11h16M4 15h16M4 19h16"
+                                            data-oid="eircrx2"
                                         />
                                     </svg>
                                 </div>
                                 <h3
-                                    className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid=":ov0tt9"
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="_y5qwdu"
                                 >
-                                    WEB開発
+                                    システム開発
                                 </h3>
-                                <p className="text-gray-600" data-oid="sh2hvba">
-                                    ユーザー体験と業務効率を両立するアプリケーションを構築。
+                                <p className="text-gray-700" data-oid="fnb7d86">
+                                    予約管理システムや会員管理システムなど、ジム運営を効率化するシステムを開発いたします。
                                 </p>
                             </div>
-
-                            {/* 保守・運用 */}
+                            {/* 継続的な保守・運用サポート */}
                             <div
-                                className="p-6 rounded-xl bg-gradient-to-br from-indigo-50 to-white shadow-lg hover:shadow-xl transition-shadow"
-                                data-oid="im9k2x_"
+                                className="p-6 rounded-xl bg-white shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="v6lr-to"
                             >
                                 <div
-                                    className="h-12 w-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4"
-                                    data-oid="10sz944"
+                                    className="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+                                    data-oid="nc4si--"
                                 >
                                     <svg
-                                        className="w-6 h-6 text-indigo-600"
+                                        className="w-6 h-6 text-blue-600"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="5foo8ak"
+                                        data-oid="o.ylkm8"
                                     >
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             strokeWidth="2"
                                             d="M13 10V3L4 14h7v7l9-11h-7z"
-                                            data-oid="bflzpyl"
+                                            data-oid="3sezk5k"
                                         />
                                     </svg>
                                 </div>
                                 <h3
-                                    className="text-xl font-semibold text-gray-800 mb-2"
-                                    data-oid="72mfwgz"
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="tal1yl8"
                                 >
-                                    保守・運用
+                                    継続的な保守・運用サポート
                                 </h3>
-                                <p className="text-gray-600" data-oid="u1j1-71">
-                                    安心してご利用いただけるサポート体制。
-                                    <br data-oid="8ue5x9i" />
-                                    定期的なメンテナンスと迅速な改善対応により、常に最適な状態を維持します。
+                                <p className="text-gray-700" data-oid="iyikb43">
+                                    一度作って終わりではなく、伴走型での運用支援により、常に最適な状態を維持いたします。
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section
-                    id="contact"
-                    className="py-32 bg-gradient-to-b from-gray-50 to-white"
-                    data-oid="w13k4n2"
-                >
-                    <div className="max-w-3xl mx-auto px-6" data-oid="tkhnxsc">
+
+                {/* 実績・事例セクション */}
+                <section id="portfolio" className="py-20" data-oid="tkyijlf">
+                    <div className="max-w-7xl mx-auto px-6" data-oid="f207dpp">
                         <h2
-                            className="text-4xl font-bold text-center mb-4 text-gray-800"
-                            data-oid="ds3t0wj"
+                            className="text-3xl font-bold text-center text-gray-900 mb-4"
+                            data-oid=".lr0grf"
                         >
-                            <span
-                                className="bg-gradient-to-r text-transparent bg-clip-text from-indigo-600 to-blue-600"
-                                data-oid="ca:u3t0"
-                            >
-                                お問い合わせ
-                            </span>
+                            実績・事例
                         </h2>
-                        <p className="text-gray-600 text-center mb-16" data-oid="_j--vtd">
-                            今抱えている課題を具体的にお知らせいただければ、最適な解決策をご提示します。
+                        <p className="text-center text-gray-700 mb-12" data-oid="vjrcj94">
+                            過去のプロジェクトを通じて、道場運営の課題を解決した事例をご紹介
                         </p>
-                        <form className="space-y-8" data-oid="ern4gwo">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="g8o6._r">
+                            {/* プロジェクトカード例 */}
                             <div
-                                className="bg-white p-8 rounded-xl border border-gray-100 shadow-lg hover:shadow-xl transition-shadow space-y-6"
-                                data-oid="52rzbvo"
+                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="ffw3lg:"
                             >
-                                <div data-oid="q0kxyvz">
-                                    <label className="block text-gray-700 mb-2" data-oid="1db_zmg">
-                                        お名前
-                                    </label>
-                                    <input
-                                        type="text"
-                                        className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors"
-                                        placeholder="山田 太郎"
-                                        data-oid="ry1ftvs"
+                                <div className="aspect-video overflow-hidden" data-oid="559ns2p">
+                                    <img
+                                        src="https://placehold.co/600x400?text=プロジェクト1"
+                                        alt="プロジェクト1"
+                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
+                                        data-oid="pqoj5u3"
                                     />
                                 </div>
-                                <div data-oid="h9ikt7q">
-                                    <label className="block text-gray-700 mb-2" data-oid="h1:ndq9">
-                                        メールアドレス
-                                    </label>
-                                    <input
-                                        type="email"
-                                        className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors"
-                                        placeholder="your@email.com"
-                                        data-oid="_y9cb0u"
-                                    />
-                                </div>
-                                <div data-oid="aimp0wn">
-                                    <label className="block text-gray-700 mb-2" data-oid="h258ltf">
-                                        お問い合わせ内容
-                                    </label>
-                                    <textarea
-                                        className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors h-32"
-                                        placeholder="ご相談内容をご記入ください"
-                                        data-oid="s0016:q"
-                                    ></textarea>
-                                </div>
-                                <div className="text-center pt-4" data-oid="108nb4s">
-                                    <button
-                                        type="submit"
-                                        className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg transition-all duration-300 hover:scale-[1.02] hover:from-indigo-500 hover:to-blue-500 shadow-lg hover:shadow-xl"
-                                        data-oid="3qrkluj"
+                                <div className="p-6" data-oid="k4pnala">
+                                    <h3
+                                        className="text-xl font-semibold text-gray-900 mb-2"
+                                        data-oid="e80dpyn"
                                     >
-                                        無料相談を申し込む
-                                    </button>
+                                        道場HPリニューアル
+                                    </h3>
+                                    <p className="text-gray-700" data-oid="fp6lusv">
+                                        既存サイトの刷新により、予約数が向上した事例。
+                                    </p>
                                 </div>
+                            </div>
+                            <div
+                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="5h1_cq."
+                            >
+                                <div className="aspect-video overflow-hidden" data-oid="ypppr6h">
+                                    <img
+                                        src="https://placehold.co/600x400?text=プロジェクト2"
+                                        alt="プロジェクト2"
+                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
+                                        data-oid="u3gfkoi"
+                                    />
+                                </div>
+                                <div className="p-6" data-oid="gakiip0">
+                                    <h3
+                                        className="text-xl font-semibold text-gray-900 mb-2"
+                                        data-oid="gmit9md"
+                                    >
+                                        予約管理システム構築
+                                    </h3>
+                                    <p className="text-gray-700" data-oid="g9t-yp8">
+                                        会員管理と出欠確認を一元管理できるシステムを開発。
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                className="group relative bg-white rounded-xl overflow-hidden border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                                data-oid="h::zip1"
+                            >
+                                <div className="aspect-video overflow-hidden" data-oid="bmeaf9_">
+                                    <img
+                                        src="https://placehold.co/600x400?text=プロジェクト3"
+                                        alt="プロジェクト3"
+                                        className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
+                                        data-oid="z.r6ecy"
+                                    />
+                                </div>
+                                <div className="p-6" data-oid="huighww">
+                                    <h3
+                                        className="text-xl font-semibold text-gray-900 mb-2"
+                                        data-oid="bmkuoim"
+                                    >
+                                        保守・運用サポート
+                                    </h3>
+                                    <p className="text-gray-700" data-oid="_ljdr9s">
+                                        継続的なサポートで、常に最適な状態を維持。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* プロフィールセクション */}
+                <section id="profile" className="py-20 bg-gray-50" data-oid="ik1olm1">
+                    <div className="max-w-4xl mx-auto px-6 text-center" data-oid="y33jtgv">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4" data-oid="ays.314">
+                            プロフィール
+                        </h2>
+                        <div
+                            className="flex flex-col md:flex-row items-center justify-center"
+                            data-oid="v4hgoug"
+                        >
+                            <img
+                                src="https://placehold.co/200x200?text=Photo"
+                                alt="プロフィール"
+                                className="w-40 h-40 rounded-full mb-6 md:mb-0 md:mr-8"
+                                data-oid="lsbci:w"
+                            />
+
+                            <div className="text-left" data-oid="-sp7wae">
+                                <p
+                                    className="text-xl text-gray-900 font-semibold"
+                                    data-oid="7mr.wyo"
+                                >
+                                    フルスタックエンジニア × 格闘技ジムスタッフ
+                                </p>
+                                <p className="text-gray-700 mt-4" data-oid="._7hm58">
+                                    長年のWEB制作とフロントエンドエンジニアとしての経験、さらに格闘技ジムでの現場経験を活かし、ITが苦手な小規模ジムや個人事業オーナーに寄り添ったサポートを提供しています。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* お客様の声セクション */}
+                <section id="testimonials" className="py-20" data-oid="b863hg9">
+                    <div className="max-w-5xl mx-auto px-6" data-oid="ztwq247">
+                        <h2
+                            className="text-3xl font-bold text-center text-gray-900 mb-4"
+                            data-oid="537wd2f"
+                        >
+                            お客様の声
+                        </h2>
+                        <p className="text-center text-gray-700 mb-12" data-oid="f95cwyh">
+                            現場を知るエンジニアならではの提案が、多くのジムオーナー様から高い評価をいただいています。
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="qvvc7-i">
+                            <div className="bg-white p-6 rounded-xl shadow-md" data-oid="gaxib9b">
+                                <p className="text-gray-700 mb-4" data-oid="27ddmyj">
+                                    "初めてのWEB制作でしたが、親身なサポートで安心して進めることができました。現場のニーズを的確に理解していただけた点が素晴らしいです。"
+                                </p>
+                                <p className="text-gray-900 font-semibold" data-oid="karv_nq">
+                                    ジムオーナー A様
+                                </p>
+                            </div>
+                            <div className="bg-white p-6 rounded-xl shadow-md" data-oid="_6t-0_-">
+                                <p className="text-gray-700 mb-4" data-oid="yitzb5b">
+                                    "柔軟な対応と継続サポートにより、運営が格段にスムーズになりました。小規模ジムにも最適な提案でした。"
+                                </p>
+                                <p className="text-gray-900 font-semibold" data-oid="-3:o5ko">
+                                    ジムスタッフ B様
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* 料金・プランセクション */}
+                <section id="pricing" className="py-20 bg-gray-50" data-oid="nd8xple">
+                    <div className="max-w-5xl mx-auto px-6" data-oid="jwolf:t">
+                        <h2
+                            className="text-3xl font-bold text-center text-gray-900 mb-4"
+                            data-oid="gd7k2yh"
+                        >
+                            料金・プラン
+                        </h2>
+                        <p className="text-center text-gray-700 mb-12" data-oid="udt-l96">
+                            透明性のある料金体系で、初めての方でも安心してご利用いただけます。
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="dp..yb3">
+                            <div className="p-6 rounded-xl bg-white shadow-md" data-oid=".pjdfd7">
+                                <h3
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="4oyjf_j"
+                                >
+                                    LP制作プラン
+                                </h3>
+                                <p className="text-gray-700 mb-4" data-oid="tj-.n2m">
+                                    初期費用：¥●●●●
+                                </p>
+                                <p className="text-gray-700" data-oid=".lyu2:z">
+                                    簡単な予約管理システム付き
+                                </p>
+                            </div>
+                            <div className="p-6 rounded-xl bg-white shadow-md" data-oid="v6_mwmo">
+                                <h3
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="359eki5"
+                                >
+                                    フルサイト制作プラン
+                                </h3>
+                                <p className="text-gray-700 mb-4" data-oid="k7pyear">
+                                    初期費用：¥●●●●
+                                </p>
+                                <p className="text-gray-700" data-oid="1ksfhmb">
+                                    オリジナルデザインとシステム開発
+                                </p>
+                            </div>
+                            <div className="p-6 rounded-xl bg-white shadow-md" data-oid="tlyh15l">
+                                <h3
+                                    className="text-xl font-semibold text-gray-900 mb-2"
+                                    data-oid="6yelke3"
+                                >
+                                    カスタムシステム連携
+                                </h3>
+                                <p className="text-gray-700 mb-4" data-oid="ff67gcf">
+                                    追加料金：¥●●●●～
+                                </p>
+                                <p className="text-gray-700" data-oid=".hmr5s3">
+                                    ご要望に合わせた柔軟な対応
+                                </p>
+                            </div>
+                        </div>
+                        <div className="mt-8 text-center" data-oid="kgue9mh">
+                            <p className="text-gray-700" data-oid="-r-tus8">
+                                【導入の流れ】 ヒアリング → 要件定義 → デザイン・開発 → 納品 →
+                                運用・継続サポート
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* お問い合わせセクション */}
+                <section id="contact" className="py-20 bg-gray-100" data-oid="9erkxzg">
+                    <div className="max-w-3xl mx-auto px-6" data-oid="l6vuqj7">
+                        <h2
+                            className="text-3xl font-bold text-center text-gray-900 mb-4"
+                            data-oid="4bt1nti"
+                        >
+                            お問い合わせ
+                        </h2>
+                        <p className="text-center text-gray-700 mb-12" data-oid="dviv7j8">
+                            お気軽にご連絡ください。ご相談内容に合わせた最適なご提案をいたします。
+                        </p>
+                        <form className="space-y-6" data-oid="jkzj_w4">
+                            <div data-oid="b2ueipz">
+                                <label className="block text-gray-800 mb-2" data-oid=".l_-3yb">
+                                    お名前
+                                </label>
+                                <input
+                                    type="text"
+                                    className="w-full px-4 py-3 rounded-lg bg-white border border-gray-300"
+                                    placeholder="山田 太郎"
+                                    data-oid="xpnxq.f"
+                                />
+                            </div>
+                            <div data-oid="3t7-ifu">
+                                <label className="block text-gray-800 mb-2" data-oid="m3c24cq">
+                                    メールアドレス
+                                </label>
+                                <input
+                                    type="email"
+                                    className="w-full px-4 py-3 rounded-lg bg-white border border-gray-300"
+                                    placeholder="your@email.com"
+                                    data-oid="_:9cs18"
+                                />
+                            </div>
+                            <div data-oid="3_5s85_">
+                                <label className="block text-gray-800 mb-2" data-oid="eodw3os">
+                                    お問い合わせ内容
+                                </label>
+                                <textarea
+                                    className="w-full px-4 py-3 rounded-lg bg-white border border-gray-300"
+                                    placeholder="ご相談内容をご記入ください"
+                                    data-oid="a3e8on:"
+                                ></textarea>
+                            </div>
+                            <div className="text-center pt-4" data-oid="43ymkzd">
+                                <button
+                                    type="submit"
+                                    className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors"
+                                    data-oid="bwqhrtw"
+                                >
+                                    送信する
+                                </button>
                             </div>
                         </form>
                     </div>
                 </section>
-            </main>{' '}
-            <footer className="bg-gray-900 text-white py-12" data-oid="c7j.3uy">
-                {' '}
-                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="gci77_8">
-                    {' '}
-                    <p data-oid="hw7:tsd">© 2024 デベロップメント. All rights reserved.</p>{' '}
-                </div>{' '}
-            </footer>{' '}
+            </main>
+
+            {/* フッター */}
+            <footer className="bg-gray-200 text-gray-700 py-8" data-oid=":k1zf7t">
+                <div className="max-w-7xl mx-auto px-6 text-center" data-oid="9wi-u53">
+                    <p data-oid="yxl2q8j">© 2025 ryosuke horie . All rights reserved.</p>
+                </div>
+            </footer>
         </div>
     );
 }
