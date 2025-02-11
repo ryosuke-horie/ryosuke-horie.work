@@ -397,7 +397,7 @@ export default function Home() {
                             料金・プラン
                         </h2>
                         <p className="text-center text-gray-700 mb-12" data-oid="udt-l96">
-                            透明性のある料金体系で、初めての方でも安心してご利用いただけます。
+                            ニーズに合わせてご相談させていただきます。以下は目安となります。
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="dp..yb3">
                             <div className="p-6 rounded-xl bg-white shadow-md" data-oid=".pjdfd7">
@@ -405,27 +405,13 @@ export default function Home() {
                                     className="text-xl font-semibold text-gray-900 mb-2"
                                     data-oid="4oyjf_j"
                                 >
-                                    LP制作プラン
+                                    ホームページ制作
                                 </h3>
                                 <p className="text-gray-700 mb-4" data-oid="tj-.n2m">
-                                    初期費用：¥●●●●
+                                    初期費用：¥30,000～
                                 </p>
                                 <p className="text-gray-700" data-oid=".lyu2:z">
-                                    簡単な予約管理システム付き
-                                </p>
-                            </div>
-                            <div className="p-6 rounded-xl bg-white shadow-md" data-oid="v6_mwmo">
-                                <h3
-                                    className="text-xl font-semibold text-gray-900 mb-2"
-                                    data-oid="359eki5"
-                                >
-                                    フルサイト制作プラン
-                                </h3>
-                                <p className="text-gray-700 mb-4" data-oid="k7pyear">
-                                    初期費用：¥●●●●
-                                </p>
-                                <p className="text-gray-700" data-oid="1ksfhmb">
-                                    オリジナルデザインとシステム開発
+                                    内部SEO対策とMEO対策を実施し、集客力の向上をサポートします。
                                 </p>
                             </div>
                             <div className="p-6 rounded-xl bg-white shadow-md" data-oid="tlyh15l">
@@ -433,13 +419,13 @@ export default function Home() {
                                     className="text-xl font-semibold text-gray-900 mb-2"
                                     data-oid="6yelke3"
                                 >
-                                    カスタムシステム連携
+                                    システム開発
                                 </h3>
                                 <p className="text-gray-700 mb-4" data-oid="ff67gcf">
-                                    追加料金：¥●●●●～
+                                    追加料金：¥100,000～
                                 </p>
                                 <p className="text-gray-700" data-oid=".hmr5s3">
-                                    ご要望に合わせた柔軟な対応
+                                    ご要望に合わせたシステムをスクラッチ開発いたします。
                                 </p>
                             </div>
                         </div>
