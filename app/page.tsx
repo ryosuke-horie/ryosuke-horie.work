@@ -272,7 +272,7 @@ export default function Home() {
                                                 className="text-sm text-gray-500"
                                                 data-oid="new-client"
                                             >
-                                                Hide's Kick様
+                                                Hide&apos;s Kick様
                                             </span>
                                         </h3>
                                         <p className="text-gray-700" data-oid="new-desc">
@@ -287,12 +287,30 @@ export default function Home() {
                                 data-oid="5h1_cq."
                             >
                                 <div className="aspect-video overflow-hidden" data-oid="ypppr6h">
-                                    <img
-                                        src="https://placehold.co/600x400?text=sample2"
-                                        alt="事例2"
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 600 400"
                                         className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-300"
                                         data-oid="u3gfkoi"
-                                    />
+                                    >
+                                        <rect
+                                            width="600"
+                                            height="400"
+                                            fill="#cccccc"
+                                            data-oid="k_0m.s9"
+                                        />
+                                        <text
+                                            x="50%"
+                                            y="50%"
+                                            dominantBaseline="middle"
+                                            textAnchor="middle"
+                                            fill="#666666"
+                                            fontSize="24"
+                                            data-oid="o.20:cm"
+                                        >
+                                            Sample Image
+                                        </text>
+                                    </svg>
                                 </div>
                                 <div className="p-6" data-oid="gakiip0">
                                     <h3
