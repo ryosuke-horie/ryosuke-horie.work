@@ -10,6 +10,7 @@ export default defineConfig({
         coverage: {
             provider: 'v8',
             reporter: ['text', 'json', 'html'],
+            exclude: ['.next', 'node_modules', 'coverage', 'vitest.config.ts', 'lib/utils.ts', 'app/__tests__/**', '*.config.mjs', '*.config.ts', '*.config.tsx'],
         },
         include: ['**/__tests__/**/*.test.{ts,tsx}'],
     },
