@@ -41,13 +41,6 @@ export default function Home() {
                             プロフィール
                         </a>
                         <a
-                            href="#testimonials"
-                            className="text-gray-800 hover:text-blue-600"
-                            data-oid="2j3strf"
-                        >
-                            お客様の声
-                        </a>
-                        <a
                             href="#pricing"
                             className="text-gray-800 hover:text-blue-600"
                             data-oid="95y33a0"
@@ -72,7 +65,7 @@ export default function Home() {
                     className="min-h-screen flex items-center justify-center relative bg-white overflow-hidden"
                     data-oid="i0o51xu"
                 >
-                    {/* グラデーション背景（ヒーロー内に収める） */}
+                    {/* グラデーション背景 */}
                     <div className="absolute inset-0" data-oid="fizl5w3">
                         <div
                             className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1000px] h-[1000px] bg-gradient-to-br from-blue-500 via-purple-500 to-orange-400 blur-3xl opacity-40 animate-pulse"
@@ -348,39 +341,6 @@ export default function Home() {
                                 </p>
                                 <p className="text-gray-700 mt-4" data-oid="._7hm58">
                                     長年のWEB制作とフロントエンドエンジニアとしての経験、さらに格闘技ジムでの現場経験を活かし、ITが苦手な小規模ジムや個人事業オーナーに寄り添ったサポートを提供しています。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* お客様の声セクション */}
-                <section id="testimonials" className="py-20" data-oid="b863hg9">
-                    <div className="max-w-5xl mx-auto px-6" data-oid="ztwq247">
-                        <h2
-                            className="text-3xl font-bold text-center text-gray-900 mb-4"
-                            data-oid="537wd2f"
-                        >
-                            お客様の声
-                        </h2>
-                        <p className="text-center text-gray-700 mb-12" data-oid="f95cwyh">
-                            現場を知るエンジニアならではの提案が、多くのジムオーナー様から高い評価をいただいています。
-                        </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="qvvc7-i">
-                            <div className="bg-white p-6 rounded-xl shadow-md" data-oid="gaxib9b">
-                                <p className="text-gray-700 mb-4" data-oid="27ddmyj">
-                                    "初めてのWEB制作でしたが、親身なサポートで安心して進めることができました。現場のニーズを的確に理解していただけた点が素晴らしいです。"
-                                </p>
-                                <p className="text-gray-900 font-semibold" data-oid="karv_nq">
-                                    ジムオーナー A様
-                                </p>
-                            </div>
-                            <div className="bg-white p-6 rounded-xl shadow-md" data-oid="_6t-0_-">
-                                <p className="text-gray-700 mb-4" data-oid="yitzb5b">
-                                    "柔軟な対応と継続サポートにより、運営が格段にスムーズになりました。小規模ジムにも最適な提案でした。"
-                                </p>
-                                <p className="text-gray-900 font-semibold" data-oid="-3:o5ko">
-                                    ジムスタッフ B様
                                 </p>
                             </div>
                         </div>
