@@ -1,10 +1,143 @@
 version: 2
+# 依存関係更新の思想：
+# 1. セキュリティとメンテナンス性の両立
+#   - パッチ更新は安全性が高いため、週次でまとめて自動更新
+#   - マイナー更新は機能追加が主のため、月1回のペースで計画的に更新
+#   - メジャー更新は破壊的変更を含むため、個別に慎重にレビュー
+# 2. 開発効率の最適化
+#   - パッチとマイナーはまとめてPR化することで、レビュー工数を削減
+#   - メジャー更新は個別PRとすることで、影響範囲を明確に把握
+# 3. 更新タイミングの戦略的選択
+#   - パッチ更新は月曜に設定し、週初めのタイミングで対応
+#   - メジャー更新は金曜に設定し、週末のリスクを最小化
+#   - マイナー更新は月初め（毎月の最初の月曜日）に設定し、月間の計画に組み込み
+# 4. グループ化戦略
+#   - UI関連ライブラリ（Tailwind, Radix UI等）を一つのグループに
+#   - Next.js/React関連を一つのグループに
+#   - その他のライブラリを別グループに
+#   これにより、関連する変更を一括でレビュー可能に
+#
+# dependabotによるライブラリ更新戦略
+# patchリリース：毎週月曜日に3グループ（UI/Next.js/その他）に分けてPRを作成
+# minorリリース：毎月1回、同様の3グループに分けてPRを作成
+# majorリリース：毎週金曜日に個別PRを作成
 updates:
-    - package-ecosystem: 'npm'
-      directory: '/'
-      schedule:
-          interval: 'weekly'
-      open-pull-requests-limit: 10
-      labels:
-          - 'dependencies'
-          - 'npm'
+  # 1. パッチ（patch）更新用
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    version-requirement-updates: "increase"
+    versioning-strategy: "auto"
+    # patchのみを対象とし、minor/majorは無視
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-minor"
+          - "version-update:semver-major"
+    # グループ化設定：3つのグループに分類
+    groups:
+      ui-libraries:
+        # UIコンポーネントやスタイリング関連のライブラリ
+        patterns:
+          - "class-variance-authority"
+          - "clsx"
+          - "lucide-react"
+          - "^@radix-ui/.*" # Radixの全コンポーネント
+          - "tailwind-merge"
+          - "tailwindcss"
+          - "tailwindcss-animate"
+        update-types:
+          - "patch"
+      next-react-libraries:
+        # Next.js、React、型定義関連のライブラリ
+        patterns:
+          - "^react$"
+          - "^react-dom$"
+          - "^@types/react"
+          - "^@types/react-dom"
+          - "^next$"
+          - "^@cloudflare/next-on-pages"
+          - "^vercel$"
+        update-types:
+          - "patch"
+      cloudflare-libraries:
+        # cloudflare関連のライブラリ
+        patterns:
+          - "^@cloudflare$"
+        update-types:
+          - "patch"
+      other-libraries:
+        # 上記以外の全ライブラリ
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
+
+  # 2. マイナー（minor）更新用
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+      time: "05:00"
+    version-requirement-updates: "increase"
+    versioning-strategy: "auto"
+    # minorのみを対象とし、patch/majorは無視
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-patch"
+          - "version-update:semver-major"
+    # パッチ更新と同じグループ分けを適用
+    groups:
+      ui-libraries:
+        patterns:
+          - "class-variance-authority"
+          - "clsx"
+          - "lucide-react"
+          - "^@radix-ui/.*"
+          - "tailwind-merge"
+          - "tailwindcss"
+          - "tailwindcss-animate"
+        update-types:
+          - "minor"
+      next-react-libraries:
+        patterns:
+          - "^react$"
+          - "^react-dom$"
+          - "^@types/react"
+          - "^@types/react-dom"
+          - "^next$"
+          - "^@cloudflare/next-on-pages"
+          - "^vercel$"
+        update-types:
+          - "minor"
+      cloudflare-libraries:
+        # cloudflare関連のライブラリ
+        patterns:
+          - "^@cloudflare$"
+        update-types:
+          - "minor"
+      other-libraries:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  # 3. メジャー（major）更新用
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    version-requirement-updates: "increase"
+    versioning-strategy: "auto"
+    # majorのみを対象とし、patch/minorは無視
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-patch"
+          - "version-update:semver-minor"
+    # メジャーアップデートは個別の変更として扱うため、グループ化しない
