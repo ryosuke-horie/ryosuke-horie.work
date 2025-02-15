@@ -1,16 +1,16 @@
 version: '3'
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile.app
-    ports:
-      - "3000:3000"
-  test:
-    build:
-      context: .
-      dockerfile: Dockerfile.test
-    depends_on:
-      - app
-    volumes:
-      - ./tests:/app/tests
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile.app
+        ports:
+            - '3000:3000'
+    test:
+        build:
+            context: .
+            dockerfile: Dockerfile.test
+        depends_on:
+            - app
+        volumes:
+            - ./tests:/app/tests

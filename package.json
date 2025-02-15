@@ -15,6 +15,7 @@
         "deploy": "npm run pages:build && wrangler pages deploy"
     },
     "dependencies": {
+        "@cloudflare/next-on-pages": "^1.13.7",
         "@radix-ui/react-slot": "^1.1.0",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
@@ -26,7 +27,6 @@
         "tailwindcss-animate": "^1.0.7"
     },
     "devDependencies": {
-        "@cloudflare/next-on-pages": "^1.13.7",
         "@cloudflare/workers-types": "^4.20250204.0",
         "@next/eslint-plugin-next": "^15.1.7",
         "@playwright/test": "^1.50.1",
