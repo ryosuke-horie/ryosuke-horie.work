@@ -1,0 +1,53 @@
+# Dockerfile.test
+
+# === Stage 1: ビルドステージ ===
+FROM node:22-bullseye AS builder
+WORKDIR /app
+
+# ビルドステージの早い段階で環境変数を設定
+ENV PLAYWRIGHT_BROWSERS_PATH=0
+
+# 依存関係のインストール
+COPY package*.json ./
+RUN npm ci
+
+# ソースコードのコピー
+COPY . .
+
+# Playwright とその依存ライブラリ（ブラウザ等）のインストール
+RUN npx playwright install --with-deps
+
+# === Stage 2: dockerize バイナリの取得 ===
+FROM node:22-bullseye AS dockerize
+RUN apt-get update && apt-get install -y wget && \
+    wget -O dockerize.tar.gz https://github.com/jwilder/dockerize/releases/download/v0.6.1/dockerize-linux-amd64-v0.6.1.tar.gz && \
+    tar -xzvf dockerize.tar.gz -C /usr/local/bin dockerize
+
+# === Stage 3: ランタイム用最小限イメージ（slim） ===
+FROM node:22-bullseye-slim
+WORKDIR /app
+
+# ランタイムステージでも環境変数を設定
+ENV PLAYWRIGHT_BROWSERS_PATH=0
+
+# 必要な OS 依存ライブラリのインストール
+RUN apt-get update && apt-get install -y \
+    libglib2.0-0 \
+    libnss3 \
+    libx11-xcb1 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxrandr2 \
+    libasound2 \
+    libpangocairo-1.0-0 \
+    libgtk-3-0 \
+    libgbm1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# ビルド成果物のコピー（node_modules や Playwright でダウンロードしたブラウザも含む）
+COPY --from=builder /app ./
+# dockerize バイナリのコピー
+COPY --from=dockerize /usr/local/bin/dockerize /usr/local/bin/dockerize
+
+# Next.js アプリが起動するまで待ってからテストを実行する
+CMD ["/usr/local/bin/dockerize", "-wait", "tcp://app:3000", "-timeout", "30s", "npx", "playwright", "test"]
