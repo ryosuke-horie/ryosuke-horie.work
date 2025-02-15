@@ -12,3 +12,5 @@ services:
       dockerfile: Dockerfile.test
     depends_on:
       - app
+    volumes:
+      - ./tests:/app/tests
