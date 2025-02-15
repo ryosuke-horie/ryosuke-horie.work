@@ -1,10 +1,97 @@
 version: 2
+# 依存関係更新の思想：
+# patch, minorの更新をUIライブラリ、Next.js関連ライブラリ、Cloudflare関連ライブラリに限定してグルーピング
+# 上記以外のライブラリはまとめてグルーピング
+# majorの更新は個別PRとする
+# majorリリースは破壊的変更が含まれる可能性が高いため個別で検証が必要と考える
 updates:
-    - package-ecosystem: 'npm'
-      directory: '/'
-      schedule:
-          interval: 'weekly'
-      open-pull-requests-limit: 10
-      labels:
-          - 'dependencies'
-          - 'npm'
+  - package-ecosystem: "npm"
+    directory: "/"
+    # 月に一度、最初の月曜日の 05:00 (UTC) に実行
+    schedule:
+      interval: "monthly"
+      day: "monday"
+      time: "05:00"
+    versioning-strategy: "auto"
+
+    # --- グループ定義 ---
+    groups:
+      # 1) Patch 用グループ
+
+      ui-libraries-patch:
+        patterns:
+          - "class-variance-authority"
+          - "clsx"
+          - "lucide-react"
+          - "^@radix-ui/.*" # Radix
+          - "tailwind-merge"
+          - "tailwindcss"
+          - "tailwindcss-animate"
+        update-types:
+          - patch
+
+      next-react-libraries-patch:
+        patterns:
+          - "^react$"
+          - "^react-dom$"
+          - "^@types/react"
+          - "^@types/react-dom"
+          - "^next$"
+          - "^@cloudflare/next-on-pages"
+          - "^vercel$"
+        update-types:
+          - patch
+
+      cloudflare-libraries-patch:
+        patterns:
+          - "^@cloudflare$"
+        update-types:
+          - patch
+
+      other-libraries-patch:
+        # 上記に当てはまらないパッケージのパッチ更新
+        patterns:
+          - "*"
+        update-types:
+          - patch
+
+      # 2) Minor 用グループ
+
+      ui-libraries-minor:
+        patterns:
+          - "class-variance-authority"
+          - "clsx"
+          - "lucide-react"
+          - "^@radix-ui/.*"
+          - "tailwind-merge"
+          - "tailwindcss"
+          - "tailwindcss-animate"
+        update-types:
+          - minor
+
+      next-react-libraries-minor:
+        patterns:
+          - "^react$"
+          - "^react-dom$"
+          - "^@types/react"
+          - "^@types/react-dom"
+          - "^next$"
+          - "^@cloudflare/next-on-pages"
+          - "^vercel$"
+        update-types:
+          - minor
+
+      cloudflare-libraries-minor:
+        patterns:
+          - "^@cloudflare$"
+        update-types:
+          - minor
+
+      other-libraries-minor:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+
+      # 3) Major はグルーピングしない → 個別 PR
+      #    (定義しなければ個別 PR になる)
