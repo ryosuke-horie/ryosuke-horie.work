@@ -1,23 +1,19 @@
-# Onlook Starter Template
+# 個人事業用HP
 
-<p align="center">
-  <img src="app/favicon.ico" />
-</p>
+## 開発環境
 
-This is an [Onlook](https://onlook.dev/) project set up with [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/) and [ShadCN](https://ui.shadcn.com).
+### CI/CD
 
-## Getting Started
+- GitHub Actions
+  - `brise`を利用してissue-xxブランチを作成
+  - テスト系CI
+    - cloudflare用ビルドのチェック
+    - Biomeによるフォーマットチェック
+- GitHub App
+  - Cloudflare Pagesへの自動デプロイ
 
-First, run the development server:
+### ライブラリ更新手順について
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in Onlook to see the result.
+- Dependabotで月1更新を行う
+- 基本的にプルリクのブランチを確認して手元で手動確認する
+- [詳細は実装に記載したコメントを確認](./.github/dependabot.yaml)
