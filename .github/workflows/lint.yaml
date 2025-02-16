@@ -1,4 +1,4 @@
-name: Lint(ESLint)
+name: Lint(Biome)
 
 on:
     push:
@@ -22,5 +22,5 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Lint with ESLint
+            - name: Lint with Biome
               run: npm run lint
