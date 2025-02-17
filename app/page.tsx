@@ -625,6 +625,7 @@ export default function Home() {
 								</p>
 							</div>
 						</div>
+						{/* 導入の流れ */}
 						<div className="mt-16" data-oid="ieqp:rr">
 							<h3
 								className="text-3xl font-bold text-center text-gray-900 mb-12"
@@ -638,7 +639,6 @@ export default function Home() {
 									className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-blue-200 -translate-y-1/2 z-0"
 									data-oid="x13l45w"
 								/>
-
 								<div
 									className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10"
 									data-oid="4crbw6f"
@@ -686,7 +686,6 @@ export default function Home() {
 													>
 														{step.step}
 													</div>
-
 													<div
 														className="mt-4 flex flex-col h-[100px] lg:h-[140px]"
 														data-oid="590tppw"
@@ -738,6 +737,15 @@ export default function Home() {
 									))}
 								</div>
 							</div>
+						</div>
+						{/* 追加CTA：サブスクプラン詳細のお問い合わせ */}
+						<div className="text-center mt-12" data-oid="cta-subscription">
+							<a
+								href="#contact"
+								className="inline-block px-8 py-4 bg-green-600 text-white font-semibold rounded-lg shadow hover:bg-green-500 transition-colors"
+							>
+								サブスクプランの詳細をご希望の方は、お気軽にお問い合わせを！
+							</a>
 						</div>
 					</div>
 				</section>
