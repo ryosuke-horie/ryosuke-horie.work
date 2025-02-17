@@ -1,5 +1,9 @@
 name: Lighthouse CI
-on: [push, pull_request]
+# TODO: リリース後、適切なスコアをクリアしなければ失敗するようにする
+# 実行タイミングは日本時間の毎日午前6時
+on:
+  schedule:
+    - cron: '0 21 * * *'
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
