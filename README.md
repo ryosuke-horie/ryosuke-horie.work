@@ -5,7 +5,6 @@
 ### CI/CD
 
 - GitHub Actions
-  - `brise`を利用してissue-xxブランチを作成
   - テスト系CI
     - cloudflare用ビルドのチェック
     - Biomeによるフォーマットチェック
