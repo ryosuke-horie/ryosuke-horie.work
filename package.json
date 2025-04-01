@@ -25,9 +25,9 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@cloudflare/next-on-pages": "^1.13.7",
+		"@cloudflare/next-on-pages": "^1.13.11",
 		"@cloudflare/workers-types": "^4.20250204.0",
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.15",
 		"@types/react": "19.0.8",
 		"@types/react-dom": "19.0.3",
 		"globals": "^13.24.0",
